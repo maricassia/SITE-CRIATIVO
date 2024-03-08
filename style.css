@@ -1,0 +1,39 @@
+/*Adicionar as propriedades margin e padding no seletor universal (asterisco)*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*iniciar seção cabeçalho*/
+
+
+.cabecalho{
+    background-color:deeppink;
+    color:aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 8%
+    border-radius: 22px;
+}
+
+/*a lista não ordenada ul precisa estar alinhada em uma única linha.
+crie um seletor para a calsse .cabecalho-lista-item, adicionando nele a propriedade display com o valor inline;*/
+/*aumente os espaçamentos entre os textos com a propriedade margin de valor 0 16x:*/
+/*aumente a fonte através da propriedade font-size de valor 24px.*/
+
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
