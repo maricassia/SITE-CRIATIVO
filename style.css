@@ -1,18 +1,17 @@
 /*Adicionar as propriedades margin e padding no seletor universal (asterisco)*/
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0; /*altera o espaçamento externo*/
+    padding: 0; /*altera o espaçamento interno*/
 }
 /*iniciar seção cabeçalho*/
 
-
 .cabecalho{
-    background-color:deeppink;
-    color:aliceblue;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
+    background-color:deeppink; /*cor de fundo*/
+    color:aliceblue; /*cor*/
+    display: flex; /*propriedade flex para organizar itens do cabeçalho, lado a lado*/
+    justify-content: space-around; /*alinha as imagens e os textos com espaçamento entre eles*/
+    align-items: center; /*alinhamento de intens centralizado */
+    padding: 24px 0; /*altera o espaçamento interno*/
 }
 
 .cabecalho-imagem{
@@ -27,13 +26,13 @@ crie um seletor para a calsse .cabecalho-lista-item, adicionando nele a propried
 
 
 .cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
+    display: inline-block; /*o valor inline-block na propriedade display, os itens da lista ficam lado a lado*/
+    margin: 0 16px; /**/
+    font-size: 24px; /*tamanho da fonte*/
 }
 
 .cabecalho-lista-item a{
-    text-decoration: none;
+    text-decoration: none; /**/
     color:aliceblue; /*cor*/
 }
 
@@ -46,7 +45,6 @@ a:hover{
 a:active{
     color:rgb(105,144,216 );
 }
-
 
 /*iniciar seção escola*/
 
