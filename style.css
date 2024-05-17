@@ -95,7 +95,7 @@ p{
     font-size: 20px;/*tamanho da fonte*/
 }
 .estudante-todos{
-    display:grid; /* especificar o espaçamento do grid(organizar por colunas) */
+    display:grid; /* especificar o espaçamento do grid(organizar por colunas)*/
     grid-template-columns: 25% 25% 25% 25%
     padding: 0 60px; /*altera o espaçamento interno, o primeiro valor bordas verticais(superior e inferior) e o segundo valor bordas horizontais(esquerda e direita)*/
 }
